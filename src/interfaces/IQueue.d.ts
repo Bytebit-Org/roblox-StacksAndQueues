@@ -22,7 +22,8 @@ export interface IQueue<T extends defined> extends IReadonlyQueue<T> {
 	push(value: T): void;
 
 	/**
-	 * Pushes the given values onto the queue
+	 * Pushes the given values onto the queue such that the last
+	 * value in the array is the last value in the queue
 	 * @param valuesArray The array of values to put onto the queue
 	 */
 	pushArray(valuesArray: ReadonlyArray<T>): void;
