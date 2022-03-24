@@ -2,7 +2,7 @@
 /* eslint-disable @typescript-eslint/consistent-type-assertions */
 /// <reference types="@rbxts/testez/globals" />
 
-import { Queue } from "./Queue";
+import { Queue } from "classes/Queue";
 
 export = () => {
 	describe("clear", () => {

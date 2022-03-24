@@ -2,7 +2,7 @@
 /* eslint-disable @typescript-eslint/consistent-type-assertions */
 /// <reference types="@rbxts/testez/globals" />
 
-import { Stack } from "./Stack";
+import { Stack } from "classes/Stack";
 
 export = () => {
 	describe("clear", () => {
