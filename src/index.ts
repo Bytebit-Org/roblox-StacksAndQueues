@@ -1,7 +1,7 @@
 export * from "classes/Queue";
 export * from "classes/Stack";
 
-export * from "interfaces/IQueue";
-export * from "interfaces/IReadonlyQueue";
-export * from "interfaces/IReadonlyStack";
-export * from "interfaces/IStack";
+export { IQueue } from "interfaces/IQueue";
+export { IReadonlyQueue } from "interfaces/IReadonlyQueue";
+export { IReadonlyStack } from "interfaces/IReadonlyStack";
+export { IStack } from "interfaces/IStack";
