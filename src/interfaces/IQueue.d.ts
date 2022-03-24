@@ -20,4 +20,10 @@ export interface IQueue<T extends defined> extends IReadonlyQueue<T> {
 	 * @param value The value to put onto the queue
 	 */
 	push(value: T): void;
+
+	/**
+	 * Pushes the given values onto the queue
+	 * @param valuesArray The array of values to put onto the queue
+	 */
+	pushArray(valuesArray: ReadonlyArray<T>): void;
 }

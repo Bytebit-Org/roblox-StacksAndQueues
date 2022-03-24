@@ -11,6 +11,14 @@ export class Queue<T extends defined> implements IQueue<T> {
 		this.linkedList.clear();
 	}
 
+	public isEmpty() {
+		return this.linkedList.isEmpty();
+	}
+
+	public peek() {
+		return this.linkedList.peekValueAtHead();
+	}
+
 	public pop() {
 		return this.linkedList.popHeadValue();
 	}
@@ -19,12 +27,8 @@ export class Queue<T extends defined> implements IQueue<T> {
 		this.linkedList.pushToTail(value);
 	}
 
-	public isEmpty() {
-		return this.linkedList.isEmpty();
-	}
-
-	public peek() {
-		return this.linkedList.peekValueAtHead();
+	public pushArray(valuesArray: ReadonlyArray<T>) {
+		this.linkedList.pushArrayToTail(valuesArray);
 	}
 
 	public size() {

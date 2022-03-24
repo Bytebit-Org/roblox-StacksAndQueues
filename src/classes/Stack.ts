@@ -11,6 +11,14 @@ export class Stack<T extends defined> implements IStack<T> {
 		this.linkedList.clear();
 	}
 
+	public isEmpty() {
+		return this.linkedList.isEmpty();
+	}
+
+	public peek() {
+		return this.linkedList.peekValueAtHead();
+	}
+
 	public pop() {
 		return this.linkedList.popHeadValue();
 	}
@@ -19,12 +27,8 @@ export class Stack<T extends defined> implements IStack<T> {
 		this.linkedList.pushToHead(value);
 	}
 
-	public isEmpty() {
-		return this.linkedList.isEmpty();
-	}
-
-	public peek() {
-		return this.linkedList.peekValueAtHead();
+	public pushArray(valuesArray: ReadonlyArray<T>) {
+		this.linkedList.pushArrayToHead(valuesArray);
 	}
 
 	public size() {

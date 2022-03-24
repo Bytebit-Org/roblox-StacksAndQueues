@@ -20,4 +20,10 @@ export interface IStack<T extends defined> extends IReadonlyStack<T> {
 	 * @param value The value to put onto the stack
 	 */
 	push(value: T): void;
+
+	/**
+	 * Pushes the given values onto the stack
+	 * @param valuesArray The array of values to put onto the stack
+	 */
+	pushArray(valuesArray: ReadonlyArray<T>): void;
 }
