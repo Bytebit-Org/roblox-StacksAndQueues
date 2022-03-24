@@ -1,0 +1,33 @@
+import { SinglyLinkedList } from "@rbxts/linked-lists";
+import { IStack } from "interfaces/IStack";
+
+/**
+ * An implementation of a stack data structure that is built upon a singly linked list.
+ */
+export class Stack<T extends defined> implements IStack<T> {
+	private readonly linkedList = new SinglyLinkedList<T>();
+
+	public clear() {
+		this.linkedList.clear();
+	}
+
+	public pop() {
+		return this.linkedList.popHeadValue();
+	}
+
+	public push(value: T) {
+		this.linkedList.pushToHead(value);
+	}
+
+	public isEmpty() {
+		return this.linkedList.isEmpty();
+	}
+
+	public peek() {
+		return this.linkedList.peekValueAtHead();
+	}
+
+	public size() {
+		return this.linkedList.size();
+	}
+}
