@@ -1,7 +1,7 @@
 [package]
 name = "bytebit/stacks-and-queues"
 description = "A simple set of implementations of stack and queue data structures."
-version = "0.0.2"
+version = "0.0.3"
 license = "MIT"
 registry = "https://github.com/UpliftGames/wally-index"
 realm = "shared"
