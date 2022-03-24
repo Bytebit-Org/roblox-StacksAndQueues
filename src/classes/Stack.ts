@@ -28,7 +28,9 @@ export class Stack<T extends defined> implements IStack<T> {
 	}
 
 	public pushArray(valuesArray: ReadonlyArray<T>) {
-		this.linkedList.pushArrayToHead(valuesArray);
+		for (const value of valuesArray) {
+			this.linkedList.pushToHead(value);
+		}
 	}
 
 	public size() {
