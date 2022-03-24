@@ -43,6 +43,6 @@
     "typescript": "^4.1.5"
   },
   "dependencies": {
-    "@rbxts/linked-lists": "^1.0.0"
+    "@rbxts/linked-lists": "^1.0.1"
   }
 }
