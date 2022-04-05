@@ -4,5 +4,5 @@ registry = "test"
 
 [[package]]
 name = "bytebit/stacks-and-queues"
-version = "1.0.4"
+version = "1.0.5"
 dependencies = []

@@ -1,6 +1,6 @@
 {
   "name": "@rbxts/stacks-and-queues",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "A simple set of implementations of stack and queue data structures.",
   "main": "out/init.lua",
   "scripts": {
