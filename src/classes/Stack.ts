@@ -1,5 +1,5 @@
 import { SinglyLinkedList } from "@rbxts/linked-lists";
-import { IStack } from "interfaces/IStack";
+import { IStack } from "../interfaces/IStack";
 
 /**
  * An implementation of a stack data structure that is built upon a singly linked list.

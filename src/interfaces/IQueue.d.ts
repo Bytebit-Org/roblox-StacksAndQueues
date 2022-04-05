@@ -1,4 +1,4 @@
-import { IReadonlyQueue } from "interfaces/IReadonlyQueue";
+import { IReadonlyQueue } from "./IReadonlyQueue";
 
 /**
  * Defines a complete interface describing a queue data structure

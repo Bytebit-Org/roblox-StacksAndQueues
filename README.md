@@ -26,7 +26,7 @@ npm i @rbxts/stacks-and-queues
 ### Wally
 [Wally](https://github.com/UpliftGames/wally/) users can install this package by adding the following line to their `Wally.toml` under `[dependencies]`:
 ```
-StacksAndQueues = "bytebit/stacks-and-queues@1.0.2"
+StacksAndQueues = "bytebit/stacks-and-queues@1.0.3"
 ```
 
 Then just run `wally install`.

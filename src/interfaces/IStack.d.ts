@@ -1,4 +1,4 @@
-import { IReadonlyStack } from "interfaces/IReadonlyStack";
+import { IReadonlyStack } from "./IReadonlyStack";
 
 /**
  * Defines a complete interface describing a stack data structure

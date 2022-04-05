@@ -1,5 +1,5 @@
 import { SinglyLinkedList } from "@rbxts/linked-lists";
-import { IQueue } from "interfaces/IQueue";
+import { IQueue } from "../interfaces/IQueue";
 
 /**
  * An implementation of a queue data structure that is built upon a singly linked list.
